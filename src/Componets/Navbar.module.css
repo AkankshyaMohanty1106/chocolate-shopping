@@ -1,0 +1,58 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    height: 2.9333rem;
+    
+    /* height: 100px; */
+  }
+  
+  .navbar__logo h1 {
+    font-size: 24px;
+  }
+  
+  .navbar__search input {
+    padding: 5px;
+    width: 450px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    height: 25px;
+  }
+  
+  .navbar__user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar__user button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .navbar__cart img {
+    width: 60px;
+    cursor: pointer;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .cart_count {
+    background-color: #0da267;
+    color: rgb(12, 12, 13);
+    border-radius: 50%;
+    padding: 5px 9px;
+    position: absolute;
+    top: 7px;
+    right: 30px;
+  }
+  
